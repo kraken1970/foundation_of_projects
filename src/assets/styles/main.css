@@ -1,0 +1,59 @@
+
+html, body {
+  width: calc(100% + calc(100vw - 100%));
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%; 
+  height: auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  padding: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    transform: scale(0.85);
+  }
+}
+
+.main_color {
+  background-color: #1bbcb8;
+}
+
+
+
+
+
+
+
+

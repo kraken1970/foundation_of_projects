@@ -1,0 +1,24 @@
+/*Flex Framework*/ 
+.main_flex {display:flex;flex-flow:row wrap;} 
+.main_flex__nowrap{display:flex;flex-flow:row nowrap;} 
+.flex__jcontent_between {justify-content:space-between;} 
+.flex__jcontent_start{justify-content:flex-start;}
+.flex__jcontent_end{justify-content:flex-end;} 
+.flex__jcontent_center{justify-content:center;} 
+.flex__jcontent_around{justify-content:space-around;} 
+.flex__auto {flex:auto;} 
+.flex__align-items_start{align-items:flex-start;} 
+.flex__align-items_end{align-items:flex-end;} 
+.flex__align-items_baseline{align-items:baseline;} 
+.flex__align-items_stretch{align-items:stretch;} 
+.flex__align-items_center{align-items:center;} 
+.flex__align-content_flex-start{align-content:flex-start;} 
+.flex__align-content_flex-end{align-content:flex-end;} 
+.flex__align-content_space-between{align-content:space-between;} 
+.flex__align-content_center{align-content:center;} 
+.flex__align-content_space-around{align-content:space-around;} 
+.flex__align-content_stretch{align-content:stretch;} 
+.flex__flex-grow_01{flex-grow:1;} 
+.flex__flex-grow_02{flex-grow:2;} 
+.flex__flex-grow_03{flex-grow:3;} 
+.flex__flex-grow_04{flex-grow:4;} 

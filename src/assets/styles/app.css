@@ -1,0 +1,7 @@
+@import 'normalize.css/normalize.css';
+@import './lib/reset.css';
+@import './lib/flex-stile.css';
+@import './fonts.css';
+@import './main.css';
+@import './media.css';
+
